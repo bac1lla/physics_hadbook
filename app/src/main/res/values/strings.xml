@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Physics</string>
+    <string name="kin">Кинематика</string>
+    <string name="din">Динамика</string>
+    <string name="stat">Статика и гидростатика</string>
+    <string name="zse">ЗСЭ</string>
+    <string name="koleb">Механические колебания</string>
+    <string name="mol">Молекулярно-Кинетическая теория</string>
+    <string name="term">Термодинамика</string>
+    <string name="elec">Электростатика</string>
+
+</resources>

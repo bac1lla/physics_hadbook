@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:title="@string/kin"
+            android:id="@+id/id_kin"
+            android:icon="@drawable/kin"/>
+        <item android:title="@string/din"
+            android:id="@+id/id_din"
+            android:icon="@drawable/din"/>
+        <item android:title="@string/stat"
+            android:id="@+id/id_stat"
+            android:icon="@drawable/stat"/>
+        <item android:title="@string/zse"
+            android:id="@+id/id_zse"
+            android:icon="@drawable/zse"/>
+        <item android:title="@string/koleb"
+            android:id="@+id/id_koleb"
+            android:icon="@drawable/koleb"/>
+        <item android:title="@string/mol"
+            android:id="@+id/id_mol"
+            android:icon="@drawable/mol"/>
+        <item android:title="@string/term"
+            android:id="@+id/id_term"
+            android:icon="@drawable/term"/>
+        <item android:title="@string/elec"
+            android:id="@+id/id_elec"
+            android:icon="@drawable/elec"/>
+
+    </group>
+
+</menu>
