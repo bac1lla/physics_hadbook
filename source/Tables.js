@@ -6,7 +6,6 @@ export const Tables = () => {
 
   return (
     <View>
-      <Text>Tables</Text>
     </View>
   )
 }

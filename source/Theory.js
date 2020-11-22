@@ -10,7 +10,7 @@ export const Theory = () => {
 
       {res.map(card => {
         return (
-          <TouchableOpacity style={[styles.card, card.color]}>
+          <TouchableOpacity key={card.key} style={[styles.card, card.color]}>
             <Image
               style={styles.cardImg}
               source={card.uri} />
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     padding: 15,
     paddingTop: 40,
-    paddingBottom: 80,
+    paddingBottom: 20,
   },
   card: {
     width: 170,
@@ -69,41 +69,49 @@ const styles = StyleSheet.create({
 
 const res = [
   {
+    key: 'kin',
     uri: require('./res/drawble/kinematics.png'),
     text: 'Кинематика',
     color: styles.red,
   },
   {
+    key: 'din',
     uri: require('./res/drawble/dinamic.png'),
     text: 'Динамика',
     color: styles.blue,
   },
   {
+    key: 'stat',
     uri: require('./res/drawble/static.png'),
     text: 'Статика и гидростатика',
     color: styles.green,
   },
   {
+    key: 'zse',
     uri: require('./res/drawble/zse.png'),
     text: 'Законы сохранения в механике',
     color: styles.yellow,
   },
   {
+    key: 'kol',
     uri: require('./res/drawble/koleb.png'),
     text: 'Механические колебания',
     color: styles.red,
   },
   {
+    key: 'mol',
     uri: require('./res/drawble/mol.png'),
     text: 'Молекулярно-Кинетическая теория',
     color: styles.blue,
   },
   {
+    key: 'term',
     uri: require('./res/drawble/term.png'),
     text: 'Термодинамика',
     color: styles.green,
   },
   {
+    key: 'elec',
     uri: require('./res/drawble/elec.png'),
     text: 'Электростатика',
     color: styles.yellow,
