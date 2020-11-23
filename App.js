@@ -1,104 +1,26 @@
-import { StatusBar } from 'expo-status-bar';
-import React, {useState} from 'react';
+import React from 'react';
 import { StyleSheet, Text, View, Button, Image } from 'react-native';
-import {Navbar} from "./source/Navbar";
 import {Theory} from "./source/Theory";
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import {Kin} from "./source/res/text/text";
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import {Formula} from "./source/Formula";
 import {Tables} from "./source/Tables";
 
-
-
-
-function HomeScreen({ navigation }) {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text style={{ fontSize: 30 }}>This is the home screen!</Text>
-      <Button
-        onPress={() => navigation.navigate('MyModal')}
-        title="Open Modal"
-      />
-    </View>
-  );
-}
-
-function ModalScreen({ navigation }) {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text style={{ fontSize: 30 }}>This is a modal!</Text>
-      <Button onPress={() => navigation.goBack()} title="Dismiss" />
-    </View>
-  );
-}
-
-function DetailsScreen() {
-  return (
-    <View>
-      <Text>Details</Text>
-    </View>
-  );
-}
-
-const MainStack = createStackNavigator();
-const RootStack = createStackNavigator();
 const Tab = createMaterialBottomTabNavigator();
-
-function MainStackScreen() {
-  return (
-    <Tab.Navigator
-      initialRouteName="Feed"
-      activeColor="#e91e63"
-      style={{ backgroundColor: 'tomato' }}
-    >
-      <Tab.Screen
-        name="Feed"
-        component={Tables}
-        options={{
-          tabBarLabel: 'Таблицы',
-          tabBarIcon: () => (
-            <Image
-              style={styles.navItem}
-              source={require('./source/res/drawble/frequency.png')}
-            />
-          )
-        }}
-      />
-      <Tab.Screen
-        name="Notifications"
-        component={Theory}
-        options={{
-          tabBarLabel: 'Теория'
-        }}
-      />
-      <Tab.Screen
-        style={styles.navItem}
-        name="Profile"
-        component={Formula}
-        options={{
-          tabBarLabel: 'Формулы'
-        }}
-      />
-    </Tab.Navigator>
-  );
-}
-
 
 export default function App() {
 
   return (
-  <NavigationContainer>
+  <NavigationContainer headerMode="none">
     <Tab.Navigator
       initialRouteName="Home"
-      activeColor="#ddd"
+      activeColor="#222"
       barStyle={styles.navbar}
     >
 
 
       <Tab.Screen
-        name="Feed"
+        name="Table"
         component={Tables}
         options={{
           tabBarLabel: '',
@@ -124,7 +46,7 @@ export default function App() {
         }}
       />
       <Tab.Screen
-        name="Profile"
+        name="Formula"
         component={Formula}
         options={{
           tabBarLabel: '',
@@ -138,14 +60,6 @@ export default function App() {
       />
     </Tab.Navigator>
     </NavigationContainer>
-
-
-    // <NavigationContainer>
-    //   <RootStack.Navigator mode="modal" headerMode="none">
-    //     <RootStack.Screen name="Main" component={MainStackScreen} />
-    //     <RootStack.Screen name="MyModal" component={ModalScreen} />
-    //   </RootStack.Navigator>
-    // </NavigationContainer>
   );
 }
 
@@ -165,10 +79,3 @@ const styles = StyleSheet.create({
     height: 32,
   },
 });
-
-
-// <View style={styles.container}>
-//   <Theory />
-//   {/*<Kin />*/}
-//   <Navbar />
-// </View>
