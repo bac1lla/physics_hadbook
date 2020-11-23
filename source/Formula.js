@@ -19,7 +19,7 @@ const RootStack = createStackNavigator();
 function MainStackScreen() {
   return (
     <MainStack.Navigator>
-      <MainStack.Screen name="Формулы" component={HomeScreen}/>
+      <MainStack.Screen name="Формулы" component={HomeScreen} />
     </MainStack.Navigator>
   );
 }
@@ -49,14 +49,26 @@ export const Formula = () => {
 
     <RootStack.Navigator mode="modal" headerMode="none">
       <RootStack.Screen name="Main" component={MainStackScreen}/>
-      <RootStack.Screen name="Speed1" component={FormRes.Speed}/>
-      <RootStack.Screen name="Speed2" component={FormRes.Speed}/>
-      <RootStack.Screen name="Speed3" component={FormRes.Speed}/>
-      <RootStack.Screen name="Speed4" component={FormRes.Speed}/>
-      <RootStack.Screen name="Speed5" component={FormRes.Speed}/>
-      <RootStack.Screen name="Speed6" component={FormRes.Speed}/>
-      <RootStack.Screen name="Speed7" component={FormRes.Speed}/>
-      <RootStack.Screen name="Speed8" component={FormRes.Speed}/>
+      <RootStack.Screen name="Speed1" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed2" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed3" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed4" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed5" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed6" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed7" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed9" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed10" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed11" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed12" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed13" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed14" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed15" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed16" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed17" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed18" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed19" component={FormRes.FormulaTemplate}/>
+      <RootStack.Screen name="Speed20" component={FormRes.FormulaTemplate}/>
+
 
     </RootStack.Navigator>
 
@@ -66,6 +78,7 @@ export const Formula = () => {
 
 const styles = StyleSheet.create({
   formula: {
+
     flexWrap: 'wrap',
     backgroundColor: '#fff',
     paddingTop: 20,
@@ -79,7 +92,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'flex-start',
     padding: 10,
-    backgroundColor: '#FFB6C1',
+    backgroundColor: '#BBDEFB',
     borderStyle: 'solid',
     borderBottomWidth: 1,
     borderBottomColor: "#eee"
@@ -155,4 +168,77 @@ const resources = [
     text: 'Электростатика',
     color: styles.yellow,
   },
+  {
+    key: 'Speed9',
+    uri: require('./res/drawble/elec.png'),
+    text: 'Электростатика',
+    color: styles.yellow,
+  },
+  {
+    key: 'Speed10',
+    uri: require('./res/drawble/elec.png'),
+    text: 'Электростатика',
+    color: styles.yellow,
+  },
+  {
+    key: 'Speed11',
+    uri: require('./res/drawble/elec.png'),
+    text: 'Электростатика',
+    color: styles.yellow,
+  },
+  {
+    key: 'Speed12',
+    uri: require('./res/drawble/elec.png'),
+    text: 'Электростатика',
+    color: styles.yellow,
+  },
+  {
+    key: 'Speed13',
+    uri: require('./res/drawble/elec.png'),
+    text: 'Электростатика',
+    color: styles.yellow,
+  },
+  {
+    key: 'Speed14',
+    uri: require('./res/drawble/elec.png'),
+    text: 'Электростатика',
+    color: styles.yellow,
+  },
+  {
+    key: 'Speed15',
+    uri: require('./res/drawble/elec.png'),
+    text: 'Электростатика',
+    color: styles.yellow,
+  },
+  {
+    key: 'Speed16',
+    uri: require('./res/drawble/elec.png'),
+    text: 'Электростатика',
+    color: styles.yellow,
+  },
+  {
+    key: 'Speed17',
+    uri: require('./res/drawble/elec.png'),
+    text: 'Электростатика',
+    color: styles.yellow,
+  },
+  {
+    key: 'Speed18',
+    uri: require('./res/drawble/elec.png'),
+    text: 'Электростатика',
+    color: styles.yellow,
+  },
+  {
+    key: 'Speed19',
+    uri: require('./res/drawble/elec.png'),
+    text: 'Электростатика',
+    color: styles.yellow,
+  },
+  {
+    key: 'Speed20',
+    uri: require('./res/drawble/elec.png'),
+    text: 'Электростатика',
+    color: styles.yellow,
+  },
+
 ]

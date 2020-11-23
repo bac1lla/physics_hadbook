@@ -16,6 +16,7 @@
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
     "react-native-gesture-handler": "~1.7.0",
+    "react-native-mathjax-svg": "^0.9.7",
     "react-native-reanimated": "~1.13.0",
     "react-native-safe-area-context": "3.1.4",
     "react-native-screens": "~2.10.1",
@@ -25,7 +26,9 @@
     "@babel/core": "~7.9.0",
     "@react-navigation/material-bottom-tabs": "^5.3.10",
     "@react-navigation/stack": "^5.12.8",
-    "react-native-paper": "^4.4.0"
+    "react-native-fast-image": "^8.3.4",
+    "react-native-paper": "^4.4.0",
+    "react-native-svg": "^12.1.0"
   },
   "private": true
 }

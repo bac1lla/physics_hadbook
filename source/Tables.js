@@ -56,6 +56,7 @@ export const Tables = () => {
 
 const styles = StyleSheet.create({
   table: {
+    height: '100%',
     flexWrap: 'wrap',
     flexDirection: 'row',
     alignItems: 'center',
@@ -75,28 +76,28 @@ const styles = StyleSheet.create({
     borderRadius: 15
   },
   col1: {
-    backgroundColor: '#00BFFF'
+    backgroundColor: '#BBDEFB'
   },
   col2: {
-    backgroundColor: '#00CED1'
+    backgroundColor: '#B3E5FC'
   },
   col3: {
-    backgroundColor: '#00FFFF'
+    backgroundColor: '#B2EBF2'
   },
   col4: {
-    backgroundColor: '#6495ED'
+    backgroundColor: '#B2DFDB'
   },
   col5: {
-    backgroundColor: '#1E90FF'
+    backgroundColor: '#C8E6C9'
   },
   col6: {
-    backgroundColor: '#40E0D0'
+    backgroundColor: '#DCEDC8'
   },
   col7: {
-    backgroundColor: '#4169E1'
+    backgroundColor: '#F0F4C3'
   },
   col8: {
-    backgroundColor: '#4682B4'
+    backgroundColor: '#FFF9C4'
   },
   cardImg: {
     width: 100,

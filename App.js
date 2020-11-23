@@ -45,19 +45,19 @@ export default function App() {
           )
         }}
       />
-      <Tab.Screen
-        name="Formula"
-        component={Formula}
-        options={{
-          tabBarLabel: '',
-          tabBarIcon: () => (
-            <Image
-              style={styles.navImg}
-              source={require('./source/res/drawble/formula.png')}
-            />
-          )
-        }}
-      />
+      {/*<Tab.Screen*/}
+      {/*  name="Formula"*/}
+      {/*  component={Formula}*/}
+      {/*  options={{*/}
+      {/*    tabBarLabel: '',*/}
+      {/*    tabBarIcon: () => (*/}
+      {/*      <Image*/}
+      {/*        style={styles.navImg}*/}
+      {/*        source={require('./source/res/drawble/formula.png')}*/}
+      {/*      />*/}
+      {/*    )*/}
+      {/*  }}*/}
+      {/*/>*/}
     </Tab.Navigator>
     </NavigationContainer>
   );

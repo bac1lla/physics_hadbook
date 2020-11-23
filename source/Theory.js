@@ -105,17 +105,29 @@ const styles = StyleSheet.create({
     padding: 20,
     borderRadius: 15
   },
-  yellow: {
-    backgroundColor: '#FFC0CB',
+  col1: {
+    backgroundColor: '#E1BEE7'
   },
-  green: {
-    backgroundColor: '#FFB6C1',
+  col2: {
+    backgroundColor: '#D1C4E9'
   },
-  blue: {
-    backgroundColor: '#FF69B4',
+  col3: {
+    backgroundColor: '#CE93D8'
   },
-  red: {
-    backgroundColor: '#FF1493',
+  col4: {
+    backgroundColor: '#B39DDB'
+  },
+  col5: {
+    backgroundColor: '#BA68C8'
+  },
+  col6: {
+    backgroundColor: '#9575CD'
+  },
+  col7: {
+    backgroundColor: '#AB47BC'
+  },
+  col8: {
+    backgroundColor: '#7E57C2'
   },
   cardImg: {
     width: 100,
@@ -133,48 +145,48 @@ const resources = [
     key: 'Kin',
     uri: require('./res/drawble/kinematics.png'),
     text: 'Кинематика',
-    color: styles.red,
+    color: styles.col1,
   },
   {
     key: 'Din',
     uri: require('./res/drawble/dinamic.png'),
     text: 'Динамика',
-    color: styles.blue,
+    color: styles.col2,
   },
   {
     key: 'Stat',
     uri: require('./res/drawble/static.png'),
     text: 'Статика и гидростатика',
-    color: styles.green,
+    color: styles.col3,
   },
   {
     key: 'Zse',
     uri: require('./res/drawble/zse.png'),
     text: 'Законы сохранения в механике',
-    color: styles.yellow,
+    color: styles.col4,
   },
   {
     key: 'Kol',
     uri: require('./res/drawble/koleb.png'),
     text: 'Механические колебания',
-    color: styles.red,
+    color: styles.col5,
   },
   {
     key: 'Mol',
     uri: require('./res/drawble/mol.png'),
     text: 'Молекулярно-Кинетическая теория',
-    color: styles.blue,
+    color: styles.col6,
   },
   {
     key: 'Term',
     uri: require('./res/drawble/term.png'),
     text: 'Термодинамика',
-    color: styles.green,
+    color: styles.col7,
   },
   {
     key: 'Elec',
     uri: require('./res/drawble/elec.png'),
     text: 'Электростатика',
-    color: styles.yellow,
+    color: styles.col8,
   },
 ]
