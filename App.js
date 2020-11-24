@@ -17,21 +17,6 @@ export default function App() {
       activeColor="#222"
       barStyle={styles.navbar}
     >
-
-
-      <Tab.Screen
-        name="Table"
-        component={Tables}
-        options={{
-          tabBarLabel: '',
-          tabBarIcon: () => (
-            <Image
-              style={styles.navImg}
-              source={require('./source/res/drawble/frequency.png')}
-            />
-          )
-        }}
-      />
       <Tab.Screen
         name="Home"
         component={Theory}
@@ -41,6 +26,19 @@ export default function App() {
             <Image
               style={styles.navImg}
               source={require('./source/res/drawble/home.png')}
+            />
+          )
+        }}
+      />
+      <Tab.Screen
+        name="Table"
+        component={Tables}
+        options={{
+          tabBarLabel: '',
+          tabBarIcon: () => (
+            <Image
+              style={styles.navImg}
+              source={require('./source/res/drawble/frequency.png')}
             />
           )
         }}
@@ -71,7 +69,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   navbar: {
-    backgroundColor: '#ddd',
+    backgroundColor: '#eee',
     color: '#ddd',
   },
   navImg: {

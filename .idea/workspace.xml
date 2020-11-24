@@ -20,15 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec57dd7c-ccba-45fa-a5b9-5e7c81490d46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/source/res/Text.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Formula.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/Formula.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/Tables.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/Tables.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/Theory.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/Theory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/res/FormulaComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/res/FormulaComponents.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/res/TableComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/res/TableComponents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/res/TabsComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/res/TabsComponents.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +55,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../physics_handbook" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -67,7 +69,9 @@
       <updated>1606000553552</updated>
       <workItem from="1606000554687" duration="1363000" />
       <workItem from="1606034366894" duration="46970000" />
-      <workItem from="1606124132029" duration="19351000" />
+      <workItem from="1606124132029" duration="21866000" />
+      <workItem from="1606150745821" duration="18753000" />
+      <workItem from="1606206891570" duration="12254000" />
     </task>
     <servers />
   </component>
@@ -91,6 +95,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="649" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1606060237864" />
+    <state x="260" y="295" key="FileChooserDialogImpl" timestamp="1606148668304">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="260" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1606148668304" />
     <state width="1899" height="295" key="GridCell.Tab.0.bottom" timestamp="1606142381545">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
 import * as TabRes from './res/TabsComponents'
+import {Formula} from "./Formula";
 
 const MainStack = createStackNavigator();
 const RootStack = createStackNavigator();
@@ -46,8 +47,6 @@ export const Theory = () => {
 
 
   return (
-
-
     <RootStack.Navigator mode="modal" headerMode="none">
       <RootStack.Screen name="Main" component={MainStackScreen}/>
       <RootStack.Screen name="Kin" component={TabRes.Kin}/>
@@ -59,28 +58,6 @@ export const Theory = () => {
       <RootStack.Screen name="Term" component={TabRes.Term}/>
       <RootStack.Screen name="Elec" component={TabRes.Elec}/>
     </RootStack.Navigator>
-
-
-
-    // <SafeAreaView >
-    // <ScrollView contentContainerStyle={styles.theory}>
-    //   <RootStack.Navigator mode="modal" headerMode="none">
-    //     <RootStack.Screen name={"Main"} component={MainStackScreen}/>
-    //   {res.map(card => {
-    //     return (
-    //
-    //       <TouchableOpacity key={card.key} style={[styles.card, card.color]}>
-    //         <Image
-    //           style={styles.cardImg}
-    //           source={card.uri} />
-    //         <Text style={styles.cardText}>{card.text}</Text>
-    //       </TouchableOpacity>
-    //     )
-    //   })}
-    //   </RootStack.Navigator>
-    // </ScrollView>
-    // </SafeAreaView>
-
   )
 }
 
@@ -97,9 +74,9 @@ const styles = StyleSheet.create({
     paddingBottom: 20,
   },
   card: {
-    width: 170,
+    width: '49%',
     height: 200,
-    marginBottom: 15,
+    marginBottom: 10,
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
