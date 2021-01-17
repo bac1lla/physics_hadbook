@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import React, {useState} from 'react';
+import React from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 
 export const Navbar = () => {
@@ -31,10 +31,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     padding: 5,
     // height: 70,
-    position: 'absolute',
-    left: 0,
-    right: 0,
-    bottom: 0
+
   },
   navItem: {
     alignItems: 'center',

@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec57dd7c-ccba-45fa-a5b9-5e7c81490d46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/res/Text.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Tables.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/Tables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Theory.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/Theory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/res/TableComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/res/TableComponents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/res/TabsComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/res/TabsComponents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../physics_handbook" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../banner_generator_with_export_canvas" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -71,7 +63,13 @@
       <workItem from="1606034366894" duration="46970000" />
       <workItem from="1606124132029" duration="21866000" />
       <workItem from="1606150745821" duration="18753000" />
-      <workItem from="1606206891570" duration="12254000" />
+      <workItem from="1606206891570" duration="12938000" />
+      <workItem from="1606403599904" duration="154000" />
+      <workItem from="1607082446708" duration="3835000" />
+      <workItem from="1607872381455" duration="71000" />
+      <workItem from="1608372996155" duration="1492000" />
+      <workItem from="1609843595867" duration="3633000" />
+      <workItem from="1609892274340" duration="49000" />
     </task>
     <servers />
   </component>
@@ -95,10 +93,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="649" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1606060237864" />
-    <state x="260" y="295" key="FileChooserDialogImpl" timestamp="1606148668304">
+    <state x="260" y="295" key="FileChooserDialogImpl" timestamp="1607872440297">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="260" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1606148668304" />
+    <state x="260" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1607872440297" />
     <state width="1899" height="295" key="GridCell.Tab.0.bottom" timestamp="1606142381545">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -119,9 +117,13 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="742" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606129856476" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1606125233040">
+    <state x="616" y="250" key="run.anything.popup" timestamp="1609844282544">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1606125233040" />
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1609844282544" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1609844393124">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1609844393124" />
   </component>
 </project>
